@@ -1,0 +1,12 @@
+#request fields
+
+#pair of values - arguments of service
+float64 firstValue
+float64 secondValue
+
+#action field valid values are only characters '+', '-', '*' and '/'
+uint8 action
+---
+#result of the action subscribed above
+float64 response
+
